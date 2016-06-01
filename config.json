@@ -2,19 +2,19 @@
     "/":{
         "template":"index.html",
         "context":{
-            "url":"http://localhost:8000/select/world/countries"
+            "url":"http://relately.slothattax.me/select/world/countries"
         }
     },
     "/cities":{
         "template":"index.html",
         "context":{
-            "url":"http://localhost:8000/select/world/cities"
+            "url":"http://relately.slothattax.me/select/world/cities"
         }
     },
     "/captitals":{
         "template":"index.html",
         "context":{
-            "url":"http://localhost:8000/select/world/capitals"
+            "url":"http://relately.slothattax.me/select/world/capitals"
         }
     }
 }
