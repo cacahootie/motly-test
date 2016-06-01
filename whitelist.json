@@ -1,7 +1,10 @@
 [
     {
-        "project":"motly-test",
         "username":"cacahootie",
         "repository":"motly-test"
+    },
+    {
+        "username":"cacahootie",
+        "repository":"motly-demo"
     }
 ]
