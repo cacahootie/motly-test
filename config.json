@@ -1,0 +1,20 @@
+{
+    "/":{
+        "template":"index.html",
+        "context":{
+            "url":"http://localhost:8000/select/world/countries"
+        }
+    },
+    "/cities":{
+        "template":"index.html",
+        "context":{
+            "url":"http://localhost:8000/select/world/cities"
+        }
+    },
+    "/captitals":{
+        "template":"index.html",
+        "context":{
+            "url":"http://localhost:8000/select/world/capitals"
+        }
+    }
+}
