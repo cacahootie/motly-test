@@ -1,0 +1,17 @@
+bolly
+
+{% for item in cities %}
+    {% if item.name %}
+        {{ item.name }}
+    {% elif item.capital %}
+        {{ item.capital }} {{ item.country }}
+    {% endif %}
+{% endfor %}
+
+{% for item in countries %}
+    {% if item.name %}
+        {{ item.name }}
+    {% elif item.capital %}
+        {{ item.capital }} {{ item.country }}
+    {% endif %}
+{% endfor %}
